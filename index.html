@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harish S - Full Stack Java Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Harish S</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hi, I'm Harish — Full Stack Java Developer.</h1>
+                <p class="hero-subtitle">I build scalable web applications using Java, Spring Boot, and modern web technologies.</p>
+                <a href="resume.pdf" class="btn btn-primary" download>Download Resume</a>
+            </div>
+            <div class="hero-image">
+                <img src="profile.jpg" alt="Harish S - Full Stack Java Developer" class="profile-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <p class="about-text">
+                I'm a passionate Full Stack Java Developer with a strong foundation in building robust, scalable web applications. 
+                With expertise in both backend and frontend technologies, I love solving complex problems and creating seamless user experiences. 
+                I'm committed to writing clean, maintainable code and staying updated with the latest industry trends.
+            </p>
+            <div class="expertise-list">
+                <div class="expertise-item">
+                    <span class="expertise-icon">✓</span>
+                    <span>Java & Object-Oriented Programming</span>
+                </div>
+                <div class="expertise-item">
+                    <span class="expertise-icon">✓</span>
+                    <span>Spring Boot & Spring Framework</span>
+                </div>
+                <div class="expertise-item">
+                    <span class="expertise-icon">✓</span>
+                    <span>REST APIs & Microservices</span>
+                </div>
+                <div class="expertise-item">
+                    <span class="expertise-icon">✓</span>
+                    <span>MySQL & Database Design</span>
+                </div>
+                <div class="expertise-item">
+                    <span class="expertise-icon">✓</span>
+                    <span>HTML, CSS, JavaScript & React Basics</span>
+                </div>
+                <div class="expertise-item">
+                    <span class="expertise-icon">✓</span>
+                    <span>Git & Version Control</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3 class="project-title">E-Commerce Platform</h3>
+                    <p class="project-description">
+                        A full-featured e-commerce application with user authentication, product catalog, shopping cart, and order management system.
+                    </p>
+                    <p class="project-tech">Java • Spring Boot • MySQL • REST APIs • HTML • CSS • JavaScript</p>
+                    <div class="project-links">
+                        <a href="#" class="btn btn-secondary">View Code</a>
+                        <a href="#" class="btn btn-secondary">Live Demo</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3 class="project-title">Task Management API</h3>
+                    <p class="project-description">
+                        RESTful API for task management with user authentication, task CRUD operations, and role-based access control.
+                    </p>
+                    <p class="project-tech">Java • Spring Boot • Spring Security • MySQL • JWT • Postman</p>
+                    <div class="project-links">
+                        <a href="#" class="btn btn-secondary">View Code</a>
+                        <a href="#" class="btn btn-secondary">Live Demo</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3 class="project-title">Blog Application</h3>
+                    <p class="project-description">
+                        A dynamic blog platform with user registration, post creation, comments, and a clean, responsive frontend interface.
+                    </p>
+                    <p class="project-tech">Java • Spring Boot • MySQL • JDBC • React • CSS</p>
+                    <div class="project-links">
+                        <a href="#" class="btn btn-secondary">View Code</a>
+                        <a href="#" class="btn btn-secondary">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-tag">Java</div>
+                <div class="skill-tag">Spring Boot</div>
+                <div class="skill-tag">Spring Framework</div>
+                <div class="skill-tag">MySQL</div>
+                <div class="skill-tag">JDBC</div>
+                <div class="skill-tag">REST APIs</div>
+                <div class="skill-tag">Microservices</div>
+                <div class="skill-tag">HTML</div>
+                <div class="skill-tag">CSS</div>
+                <div class="skill-tag">JavaScript</div>
+                <div class="skill-tag">React Basics</div>
+                <div class="skill-tag">Git</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-subtitle">Have a question or want to work together? Feel free to reach out!</p>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2025 Harish S. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="https://github.com" target="_blank">GitHub</a>
+                <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
